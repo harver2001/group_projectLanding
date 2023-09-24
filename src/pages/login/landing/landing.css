@@ -5,6 +5,10 @@
     color: white;
 }
 
+.landingContent {
+    display: block;
+}
+
 .landingGrid{
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -39,14 +43,19 @@
     margin-top: 25px;
 }
 
+#primaryButton {
+    background-color: #5060E8;
+    color: white;
+    padding: 16px 24px ;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 16px ;
+}
+
 .right-item{
     height: 140%;
     width: 100%;
     background-image: url(3.png);
     background-position: center;
     background-size: cover;
-}
-
-.landingContent{
-    display: block;
 }
