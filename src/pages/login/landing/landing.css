@@ -1,0 +1,52 @@
+.landingContainer{
+    height: 500vh;
+    width: 100%;
+    top: 0px;
+    color: white;
+}
+
+.landingGrid{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: transparent;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.landingLeftHeading{
+    margin-top: 20%;
+    color: black;
+    font-style: Roboto;
+    font-weight: 700;
+    size: 80px;
+    line-height: 65px;
+}
+
+.landingLeftParagraph{
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.right-item{
+    height: 140%;
+    width: 100%;
+    background-image: url(3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.landingContent{
+    display: block;
+}
