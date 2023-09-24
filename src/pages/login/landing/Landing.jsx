@@ -1,6 +1,7 @@
 import React from 'react'
 import "./landing.css"
 import { Button, Container } from '@mui/material'
+import Card from '../../../components/Card/Card'
 
 
 const Landing = () => {
@@ -22,8 +23,10 @@ const Landing = () => {
           <div className='grid-item right-item'>
           </div>
         </div>
-        <Button variant='contained'> Explore Hackathons</Button>
+        {/* <Button variant='contained'> Explore Hackathons</Button> */}
       </div>
+      <h1 className='upcomingEventsLanding'>Upcoming Events</h1>
+      <Card />
     </div>
   )
 }
