@@ -19,6 +19,7 @@ const Landing = () => {
                 challenge, and propel participants to new
                 heights.
             </p>
+            <Button variant='contained' id = 'primaryButton' active> Explore Hackathons</Button>
           </div>
           <div className='grid-item right-item'>
           </div>
