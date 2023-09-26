@@ -33,10 +33,14 @@ const Landing = () => {
       <div>
         <Card />
         <Card />
+        <Card />        
+        <Card />
         <Card />
       </div>
       <h1 className='topStoriesLandingHeading'>Top Stories</h1>
       <div className='storiesLandingSection'>
+        <Story />
+        <Story />
         <Story />
         <Story />
         <Story />
