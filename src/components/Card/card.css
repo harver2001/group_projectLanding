@@ -1,6 +1,7 @@
 .cardContainer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .cardLeft{
@@ -11,12 +12,36 @@
 }
 
 .cardInfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    color: black;
+    position: relative;
+    font-size: 21px;
+    font-weight: 530;
+    right: 80px;
 }
 
 .cardInfo h1{
+    font-size: 39px;
+    font-family: 'Roboto', monospace;
+    font-weight: 1000;
     color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
+
+.cardInfo h3{
+    font-size: 18px;
+    margin: 20px;
+}
+
+.cardDateInfo{
+    width: 200px;
+    height: 100%;
+    background-color: #5060e8;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 25px;
+    padding: 50px;
+}
+

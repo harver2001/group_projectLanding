@@ -1,0 +1,9 @@
+.galleryCardContainer{
+    width: 400px;
+    height: 200px;
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*g3ARV1u4v9b9AKEIyPB7zw.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 20px;
+}

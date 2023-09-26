@@ -1,0 +1,118 @@
+
+.landingContainer{
+    height: 700vh;
+    width: 100%;
+    top: 0px;
+    color: white;
+}
+
+.landingContent {
+    display: block;
+}
+
+.landingGrid{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: transparent;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.landingLeftHeading{
+    margin-top: 20%;
+    color: black;
+    font-family: "Roboto", monospace;
+    font-weight: 700;
+    size: 80px;
+    line-height: 65px;
+}
+
+.landingLeftParagraph{
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+#primaryButton {
+    background-color: #5060E8;
+    color: white;
+    border: 2.5px solid #5060E8;
+    width: 350px;
+    padding: 14px 10px ;
+    font-size: 20px;
+    font-family: 'Roboto', monospace;
+    font-weight: 700;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 24px ;
+}
+
+#primaryButton1 {
+    background-color: #f4f2f6;
+    color: black;
+    border: 2.5px solid #5060E8;
+    width: 350px;
+    padding: 14px 10px ;
+    font-size: 20px;
+    font-family: 'Roboto', monospace;
+    font-weight: 700;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 16px ;
+}
+
+.right-item{
+    height: 140%;
+    width: 100%;
+    background-image: url(3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.upcomingEventsLandingHeading{
+    margin-top: 250px;
+    margin-left: 50px;
+    color: black;
+    font-family: "courier new", monospace;
+    font-size: 49px;
+    font-weight: 700;
+} 
+
+.topStoriesLandingHeading{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: black;
+    font-family: "courier new", monospace;
+    font-size: 49px;
+    font-weight: 700;
+} 
+
+.storiesLandingSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.galleryLandingHeading, .ourClientsHeading{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: black;
+    font-family: "courier new", monospace;
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.clientsImageJpg > img{
+    margin-top: 50px;
+    width: 100%;
+}
