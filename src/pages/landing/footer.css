@@ -1,0 +1,39 @@
+.CompanyLogo {
+    background-color: white;
+    filter: invert();
+}
+
+.FooterContainer {
+    margin-top: 40px;
+    background-color: #00001C;
+    color: white;
+}
+
+.FooterRows {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 24px 72px;
+    align-items: center;
+}
+
+.FooterRow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px 24px;
+    align-items: flex-start;
+}
+
+.InfoText {
+    color: #FFF;
+    font-size: 20px;
+    margin: 4px 0px;
+}
+
+.SocialMediaIconButton {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    margin: 0px 4px;
+}
