@@ -26,7 +26,7 @@ const Users = (props) => {
           <UserRegistered person={person} />
           <UserRegistered person={person} />
         </div>
-        <h1 className='userAllEventsTitle'>Registered Events</h1>
+        <h1 className='userAllEventsTitle'>All Events</h1>
         <div className='userAllEventsContainer'>
           <UserRegistered person={person} />
           <UserRegistered person={person} />
