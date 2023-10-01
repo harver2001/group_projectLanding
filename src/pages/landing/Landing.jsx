@@ -5,6 +5,7 @@ import Card from '../../components/Card/Card'
 import Story from '../../components/Story/Story'
 import Gallery from '../../components/Gallery/Gallery'
 import clientJPG from './clients.png'
+import Footer from './Footer' ;
 
 const Landing = () => {
   return (
@@ -33,10 +34,14 @@ const Landing = () => {
       <div>
         <Card />
         <Card />
+        <Card />        
+        <Card />
         <Card />
       </div>
       <h1 className='topStoriesLandingHeading'>Top Stories</h1>
       <div className='storiesLandingSection'>
+        <Story />
+        <Story />
         <Story />
         <Story />
         <Story />
@@ -49,6 +54,7 @@ const Landing = () => {
       <div className='landingGallery'>
         <Gallery />
       </div>
+      <Footer />
     </div>
   )
 }
