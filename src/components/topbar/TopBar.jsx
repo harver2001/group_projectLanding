@@ -15,13 +15,19 @@ export default function TopBar() {
                 <div className='topLeft'>
                     <img src={logo} />
                 </div>
-                
+                <div className = 'topCenter'> 
+                    <ul>
+                        <li>Events</li>
+                        <li>Demo</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
                 <div className='topRight'>
                 {
                     user ? (<Link to='/settings'><img src = {PF+user.profilePic} alt = "img" className="topImg" /></Link>):(
                         <ul className='topList'>
-                            <li className='topListItem whiteURL'><Link className='link' to="/blogs">Blogs</Link></li>
-                            <li className='topListItem'><Link className='link' to="/login"><div className='loginDetail'>Login</div></Link></li>
+                            <li className='topListItem whiteURL'><Link className='link' to="/login">Login</Link></li>
+                            <li className='topListItem'><Link className='link' to="/register"><div className='loginDetail'>Register</div></Link></li>
                         </ul>
                     )
                 }

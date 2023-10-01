@@ -1,0 +1,43 @@
+.userRegisteredCard{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+}
+
+.userRegisteredCard h2{
+    color: black;
+    font-family: 'Roboto', monospace;
+    padding-top: 70%;
+    font-size: 16px;
+}
+
+.userRegisteredCard h3{
+    color: black;
+    font-family: 'Roboto', monospace;
+    padding-top: 4%;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.userRegisteredCardImg{
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -20px;
+    position: absolute;
+    height: 50%;
+    width: 120%;
+}
+
+#userRegisteredCardButton{
+    margin-top: 5%;
+    border-radius: 30px;
+    width: 80%;
+    font-family: 'Roboto', monospace;
+    font-weight: 900;
+}
+
+.userRegisteredCardEventStatus{
+    color: Green;
+}

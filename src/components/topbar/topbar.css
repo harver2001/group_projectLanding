@@ -13,13 +13,24 @@
 }
 
 .topLeft,
-.topRight {
+.topRight
+.topCenter {
     margin-top: 5px;
     flex: 3;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 2%;
+}
+
+.topCenter ul{
+    display: flex;
+    flex-direction:row;
+    list-style-type: none;
+}
+
+.topCenter ul li{
+    margin: 6%;
 }
 
 .topRight{
