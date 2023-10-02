@@ -1,0 +1,142 @@
+.profileContainer{
+    width: 100%;
+    height: 370vh;
+    background-color: #f4f2f7;
+}
+
+.profileDetailsContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f2f7;
+    display: flex;
+    justify-content: center;
+}
+
+.profileCoverImageDetails{
+    height: 50vh;
+    width: 150vh;
+    background-image: url(profileCover.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.profileCoverPhoto{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    height: 55%;
+}
+
+.profileCoverPhotoDetails{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 132%;
+    color: black;
+    font-family: 'Roboto', monospace;
+    font-size: 50px;
+    font-weight: 1200;
+    text-transform: uppercase;
+}
+
+.profileCoverPhotoDetailsEmail{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 152%;
+    color: black;
+    font-family: 'Roboto', monospace;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.profileCoverPhotoDetailsEvents{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+    top: 167%;
+}
+
+.profileCoverPhotoDetailsEvents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileCoverPhotoDetailsEventsLeft h3, .profileCoverPhotoDetailsEventsRight h3{
+    color: black;
+    font-size: 25px;
+    font-family: 'Roboto', monospace;
+}
+
+#profileCoverPhotoDetailsEventsLeftTitle, #profileCoverPhotoDetailsEventsRightTitle{
+    font-size: 15px;
+    color: rgb(102, 100, 100);
+    transform: translateX(-70%);
+    margin: 0 40px;
+}
+
+.profileAboutContainer h1{
+    color: rgb(10, 10, 10);
+    font-family: 'Roboto', monospace;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0% 15%;
+}
+
+.profileAboutContainer h3{
+    color: rgb(95, 93, 93);
+    font-family: 'Roboto', monospace;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0% 15%;
+}
+
+.profileButtonsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+
+#profileButton1, #profileButton2{
+    height: 60px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 0 4%;
+}
+
+.profileHorizontalLine{
+    margin-top: 2%;
+    width: 90%;
+    height: 1.5px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profileRegisteredEventsTitle,.profileBookmarkedEventsTitle{
+    margin-top : 4%;
+    margin-left: 8%;
+    font-family: 'Roboto', monospace;
+    font-size: 28px;
+    font-weight: 1200;
+}
+
+.profileRegisteredEventsContainer,.profileBookmarkedEventsContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 2%;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3%;
+}
+
+.profileFooterSection{
+    position: absolute;
+    bottom: 0%;
+}
