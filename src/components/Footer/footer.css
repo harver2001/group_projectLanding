@@ -1,9 +1,12 @@
 .CompanyLogo {
-    background-color: white;
-    filter: invert();
+    /* filter: invert(); */
+    height: 10%;
+    width: 60%;
+    margin-left: -20px;
 }
 
 .FooterContainer {
+    font-family: 'Roboto', monospace;
     margin-top: 40px;
     background-color: #00001C;
     color: white;
@@ -26,6 +29,7 @@
 }
 
 .InfoText {
+    font-family: 'Roboto', monospace;
     color: #FFF;
     font-size: 20px;
     margin: 4px 0px;

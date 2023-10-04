@@ -31,6 +31,10 @@
 
 .topCenter ul li{
     margin: 6%;
+    color: #0a0909;
+    font-family: 'Roboto', monospace;
+    font-size: medium;
+    font-weight: 900;
 }
 
 .topRight{

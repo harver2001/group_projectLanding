@@ -1,6 +1,6 @@
 import React from 'react';
-import "./footer.css";
-import logo from '../../components/topbar/logo_hackingly.png';
+import './footer.css';
+import logo from './logo_hackingly.png';
 
 const Footer = () => {
     return (
@@ -13,10 +13,10 @@ const Footer = () => {
                         height: 72
                     }}/>
                     <h2>Hackathon</h2>
-                    <p className='InfoText'>Organize Hackathon</p>
-                    <p className='InfoText'>Community Hackathon</p>
-                    <p className='InfoText'>Corporate Hackathon</p>
-                    <p className='InfoText'>Hackathon Guide</p>
+                    <p className='InfoText'><a href='www.google.com'>Organize Hackathon</a></p>
+                    <p className='InfoText'><a href='www.google.com'>Community Hackathon</a></p>
+                    <p className='InfoText'><a href='www.google.com'>Corporate Hackathon</a></p>
+                    <p className='InfoText'><a href='www.google.com'>Hackathon Guide</a></p>
                 </div>
                 <div className="FooterRow" style={{ flex: 1.75 }}>
                     <div style = {{
@@ -41,9 +41,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='FooterRow'>
-                        <p className='InfoText'>About Us</p>
-                        <p className='InfoText'>FAQ</p>
-                        <p className='InfoText'>Contact Us</p>
+                        <p className='InfoText'><a href='www.google.com'>About Us</a></p>
+                        <p className='InfoText'><a href='www.google.com'>FAQ</a></p>
+                        <p className='InfoText'><a href='www.google.com'>Contact Us</a></p>
                     </div>
                     <div style={{height: 4}}/>
                     <h1>Events</h1>

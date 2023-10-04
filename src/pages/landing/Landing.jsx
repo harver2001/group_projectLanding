@@ -5,7 +5,7 @@ import Card from '../../components/Card/Card'
 import Story from '../../components/Story/Story'
 import Gallery from '../../components/Gallery/Gallery'
 import clientJPG from './clients.png'
-import Footer from './Footer' ;
+import Footer from '../../components/Footer/Footer'
 
 const Landing = () => {
   return (

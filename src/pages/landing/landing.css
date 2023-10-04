@@ -1,9 +1,10 @@
 
 .landingContainer{
-    height: 700vh;
+    height: 710vh;
     width: 100%;
     top: 0px;
     color: white;
+    background-color: #f4f2f7;
 }
 
 .landingContent {
